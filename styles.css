@@ -1,0 +1,71 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;                /* Flexbox */
+      align-items: center;          /* vertical middle */
+      justify-content: center;      /* horizontal middle */
+      background-color:hsl(212, 45%, 89%);
+      
+      font-family: Arial, sans-serif;
+    }
+
+    
+    .qr-class {
+      border: 3px solid rgba(255,255,255,0.85); /*  Borders */
+      border-radius: 16px;                      /* Round Ends */
+      padding: 1%;  
+      padding-bottom: 5%;                          
+      background: rgba(255,255,255,0.06);       
+      color: black;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      width: 30vh;
+      height: 45vh;
+      text-align: center;
+      background-color: white;
+    }
+    .img-class{
+       border-radius: 16px;  
+       width:100%;
+        height:70%;
+    }
+    
+    
+  .p-style {
+            color: hsl(216, 15%, 48%);
+            font-size: 15px;         
+            font-family: 'Outfit', sans-serif;
+            font-weight: 400;       
+}
+
+.h-style {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;        /*  Bold */
+}
+
+    @media (max-width: 270px) {
+  .qr-class {
+    height: 55vh;   /* make Container bigger */
+    width:20vh;
+  }
+
+  .img-class {
+    height: 50%;    /* Make smaller height */
+  
+  }
+}
+@media (max-width: 117px) {
+  .qr-class {
+    height: 75vh;   /* Make container higher */
+    width:15vh;
+  }
+
+  .img-class {
+    height: 30%;    /* Make img smaller */
+    
+  }
+}
