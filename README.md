@@ -19,18 +19,18 @@ Frontend Mentor challenges help me improve my coding skills by building realisti
 
 ### Screenshot
 
-![Screenshot of my solution for large screen](./images/screenshot-lg-screen.png)
+[Screenshot of my solution for large screen](./images/screenshot-lg-screen.png)
 [Screenshot of my solution for small screen](./images/screenshot-sm-screen.png)
 
 ### Links
 
-- Solution URL: https://github.com/AndresChernin/qr-code-component  
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/AndresChernin/qr-code-component)  
+- Live Site URL: [GitHub Pages](https://andreschernin.github.io/qr-code-component/)
 
 ## My process
 
 - First, I set up the body as a flexbox.  
-- Inside the flexbox, I centered the `div` with the class `qr-class` both horizontally and     vertically.  
+- Inside the flexbox, I centered the `div` with the class `qr-class` both horizontally and vertically.  
 - Then, I added the `img`, `h2`, and `p` tags.  
 - I adjusted the CSS classes: I experimented with different sizes so that my solution looked as close as possible to the preview image.  
 - Finally, I worked on the colors and responsive design to make the component look good on different screen sizes.
@@ -68,7 +68,7 @@ After that, I want to move to **intermediate-level challenges** as quickly as po
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)  
-- GitHub - [yourusername](https://github.com/yourusername)  
+- Frontend Mentor - [@AndresChernin](https://www.frontendmentor.io/profile/AndresChernin)  
+- GitHub - [AndresChernin](https://github.com/AndresChernin)  
   
 
