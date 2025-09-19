@@ -37,7 +37,7 @@
     
   .p-style {
             color: hsl(216, 15%, 48%);
-            font-size: 15px;         
+            font-size: 10px;         
             font-family: 'Outfit', sans-serif;
             font-weight: 400;       
 }
@@ -45,9 +45,10 @@
 .h-style {
   font-family: 'Outfit', sans-serif;
   font-weight: 700;        /*  Bold */
+  font-size: 12px;
 }
 
-    @media (max-width: 270px) {
+    @media (max-width: 500px) {
   .qr-class {
     height: 55vh;   /* make Container bigger */
     width:20vh;
