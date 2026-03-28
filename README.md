@@ -30,7 +30,7 @@ Frontend Mentor challenges help me improve my coding skills by building realisti
 ## My process
 
 - First, I set up the body as a flexbox.  
-- Inside the flexbox, I centered the `div` with the class `qr-class` both horizontally and vertically.  
+- Inside the flexbox, I centered the `div` with the class `qr-class` both horizontally and     vertically.  
 - Then, I added the `img`, `h2`, and `p` tags.  
 - I adjusted the CSS classes: I experimented with different sizes so that my solution looked as close as possible to the preview image.  
 - Finally, I worked on the colors and responsive design to make the component look good on different screen sizes.
