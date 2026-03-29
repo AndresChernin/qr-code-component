@@ -68,7 +68,7 @@ p,h1{
 .small-text{
     font-size: 0.625rem;
     font-weight: 400;
-    color: var(--small-text-color);
+    color: var(--fat-text-color);
     width:85%;
 }
 @media(max-width:23.438rem){
