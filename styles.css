@@ -1,6 +1,6 @@
 :root{
     --body-background-color:hsl(212, 45%, 89%);
-    --small-text-color:hsl(215, 7%, 55%);
+    --small-text-color:hsl(216, 15%, 48%);
     --container-color:hsl(0, 0%, 100%);
     --fat-text-color:hsl(218, 44%, 22%);
     --radius-for-container:0.625rem;
@@ -11,8 +11,9 @@ body{
     align-items: center;
     justify-content: center;
     background-color: var(--body-background-color) ;
-    width:100vw;
-    height:100vh;
+    
+    min-height:100vh;
+    margin:0;
     font-family: 'Outfit', sans-serif;
 }
 p,h1{
@@ -23,11 +24,10 @@ p,h1{
     background-color: var(--container-color);
     display:flex;
     
-    width:20vw;
-    height:60vh;
+    width:min(320px,90%);
+    /*height:60vh;*/
     
-    padding:0.625rem;
-    padding-bottom: 1.25rem;
+    padding:0.625rem 0.625rem 1.25rem;
 
     border-radius: var(--radius-for-container);
 }
@@ -68,7 +68,7 @@ p,h1{
 .small-text{
     font-size: 0.625rem;
     font-weight: 400;
-    color: var(--fat-text-color);
+    color: var(--small-text-color);
     width:85%;
 }
 @media(max-width:23.438rem){
