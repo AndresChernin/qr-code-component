@@ -3,8 +3,8 @@
     --small-text-color:hsl(216, 15%, 48%);
     --container-color:hsl(0, 0%, 100%);
     --fat-text-color:hsl(218, 44%, 22%);
-    --radius-for-container:0.625rem;
-    --radius-for-img:0.469rem;
+    --radius-for-container:0.938rem;
+    --radius-for-img:0.625rem;
 }
 body{
     display:flex;
@@ -27,7 +27,7 @@ p,h1{
     width:min(300px,90%);
     /*height:60vh;*/
     
-    padding:1.25rem 1.25rem 1.5rem;
+    padding:18px 10px 30px 10px;
 
     border-radius: var(--radius-for-container);
 }
@@ -43,7 +43,7 @@ p,h1{
     margin:0;
 }
 .image-settings{
-    width:100%;
+    width:95%;
     aspect-ratio: 1/1;
     object-fit: cover;
    
@@ -57,17 +57,17 @@ p,h1{
     align-items: center;
     gap:1rem;
     text-align: center;
-    padding:0.75rem;
+    padding:20px;
 }
 .fat-text{
-    font-size: 1.4rem;
+    font-size: 22px;
     font-weight: 700;
     color: var(--fat-text-color);
     
     
 }
 .small-text{
-    font-size: 0.95rem;
+    font-size: 15px;
     font-weight: 400;
     color: var(--small-text-color);
     
