@@ -24,10 +24,10 @@ p,h1{
     background-color: var(--container-color);
     display:flex;
     
-    width:min(320px,90%);
+    width:min(300px,90%);
     /*height:60vh;*/
     
-    padding:0.75rem 0.75rem 1.25rem;
+    padding:0.8rem 0.8rem 1.25rem;
 
     border-radius: var(--radius-for-container);
 }
