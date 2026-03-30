@@ -24,10 +24,10 @@ p,h1{
     background-color: var(--container-color);
     display:flex;
     
-    width:min(280px,90%);
+    width:min(300px,90%);
     /*height:60vh;*/
     
-    padding:0.8rem 0.8rem 1.25rem;
+    padding:0.9rem 0.9rem 1.25rem;
 
     border-radius: var(--radius-for-container);
 }
@@ -60,7 +60,7 @@ p,h1{
     padding:0.625rem;
 }
 .fat-text{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: var(--fat-text-color);
     
